@@ -1,0 +1,296 @@
+[
+  {
+    "title": "Sword",
+    "type": "main-hand",
+    "items": [
+      {
+        "name": "Wooden sword",
+        "atk": 1,
+        "def": 0,
+        "price": 3
+      },
+      {
+        "name": "Short sword",
+        "atk": 3,
+        "def": 0,
+        "price": 30
+      },
+      {
+        "name": "Long sword",
+        "atk": 6,
+        "def": 0,
+        "price": 244
+      },
+      {
+        "name": "Widow sword",
+        "atk": 10,
+        "def": 0,
+        "price": 645
+      },
+      {
+        "name": "Knight's sword",
+        "atk": 16,
+        "def": 0,
+        "price": 1440
+      },
+      {
+        "name": "Elven sword",
+        "atk": 22,
+        "def": 0,
+        "price": 1800
+      },
+      {
+        "name": "Rapier",
+        "atk": 27,
+        "def": 0,
+        "price": 3100
+      }
+    ]
+  },
+  {
+    "title": "Spear",
+    "type": "main-hand",
+    "items": [
+      {
+        "name": "Short spear",
+        "atk": 3,
+        "def": 1,
+        "price": 55
+      },
+      {
+        "name": "Long spear",
+        "atk": 5,
+        "def": 3,
+        "price": 364
+      },
+      {
+        "name": "Lance",
+        "atk": 11,
+        "def": 5,
+        "price": 976
+      },
+      {
+        "name": "Elven spear",
+        "atk": 12,
+        "def": 7,
+        "price": 1414
+      }
+    ]
+  },
+  {
+    "title": "Dagger",
+    "type": "off-hand",
+    "items": [
+      {
+        "name": "Kitchen knife",
+        "atk": 1,
+        "def": 0,
+        "price": 3
+      },
+      {
+        "name": "Battle knife",
+        "atk": 2,
+        "def": 0,
+        "price": 50
+      },
+      {
+        "name": "Steel dagger",
+        "atk": 3,
+        "def": 0,
+        "price": 103
+      },
+      {
+        "name": "Silver dagger",
+        "atk": 5,
+        "def": 0,
+        "price": 311
+      },
+      {
+        "name": "Mithril dagger",
+        "atk": 7,
+        "def": 0,
+        "price": 498
+      }
+    ]
+  },
+  {
+    "title": "Shield",
+    "type": "off-hand",
+    "items": [
+      {
+        "name": "Wooden shield",
+        "atk": 0,
+        "def": 1,
+        "price": 3
+      },
+      {
+        "name": "Skeleton Buckler",
+        "atk": 0,
+        "def": 2,
+        "price": 50
+      },
+      {
+        "name": "Bronze shield",
+        "atk": 0,
+        "def": 3,
+        "price": 103
+      },
+      {
+        "name": "Silver shield",
+        "atk": 0,
+        "def": 5,
+        "price": 311
+      },
+      {
+        "name": "Mithril shield",
+        "atk": 0,
+        "def": 7,
+        "price": 498
+      }
+    ]
+  },
+  {
+    "title": "Armor",
+    "type": "equipment",
+    "items": [
+      {
+        "name": "Cloth jacket",
+        "atk": 0,
+        "def": 2,
+        "price": 3
+      },
+      {
+        "name": "Leather shirt",
+        "atk": 0,
+        "def": 4,
+        "price": 30
+      },
+      {
+        "name": "Chain mail",
+        "atk": 0,
+        "def": 12,
+        "price": 250
+      },
+      {
+        "name": "Silver cuirass",
+        "atk": 1,
+        "def": 15,
+        "price": 430
+      },
+      {
+        "name": "Mithril armor",
+        "atk": 3,
+        "def": 17,
+        "price": 690
+      }
+    ]
+  },
+  {
+    "title": "Helmet",
+    "type": "equipment",
+    "items": [
+      {
+        "name": "Hat",
+        "atk": 0,
+        "def": 1,
+        "price": 1
+      },
+      {
+        "name": "Leather hood",
+        "atk": 0,
+        "def": 2,
+        "price": 35
+      },
+      {
+        "name": "Steel helmet",
+        "atk": 0,
+        "def": 3,
+        "price": 80
+      },
+      {
+        "name": "Silver helmet",
+        "atk": 0,
+        "def": 7,
+        "price": 238
+      },
+      {
+        "name": "Mithril helmet",
+        "atk": 0,
+        "def": 12,
+        "price": 510
+      }
+    ]
+  },
+  {
+    "title": "Boots",
+    "type": "equipment",
+    "items": [
+      {
+        "name": "Sandals",
+        "atk": 0,
+        "def": 1,
+        "price": 1
+      },
+      {
+        "name": "Leather shoes",
+        "atk": 0,
+        "def": 2,
+        "price": 43
+      },
+      {
+        "name": "Steel boots",
+        "atk": 0,
+        "def": 3,
+        "price": 92
+      },
+      {
+        "name": "Silver boots",
+        "atk": 0,
+        "def": 5,
+        "price": 285
+      },
+      {
+        "name": "Mithril boots",
+        "atk": 0,
+        "def": 8,
+        "price": 490
+      }
+    ]
+  },
+  {
+    "title": "Gloves",
+    "type": "equipment",
+    "items": [
+      {
+        "name": "Gloves",
+        "atk": 0,
+        "def": 1,
+        "price": 1
+      },
+      {
+        "name": "Leather gloves",
+        "atk": 0,
+        "def": 2,
+        "price": 43
+      },
+      {
+        "name": "Steel gauntlets",
+        "atk": 0,
+        "def": 3,
+        "price": 92
+      },
+      {
+        "name": "Silver gauntlets",
+        "atk": 0,
+        "def": 5,
+        "price": 285
+      },
+      {
+        "name": "Mithril gauntlets",
+        "atk": 0,
+        "def": 8,
+        "price": 490
+      }
+    ]
+  }
+]

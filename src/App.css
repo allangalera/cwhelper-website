@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 45px;
+}
+.battle-timer {
+  position: fixed;
+  margin-top: 45px;
+  width: 100%;
+  text-align: center;
+  background-color: #4178b9;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);*/
+}
+
+.battle-timer span {
+  margin: 0;
+  line-height: 24px;
+  color: #fff;
+}
+.battle-timer span:first-child {
+  float: left;
+  padding-left: 15px;
+}
+.battle-timer span:last-child {
+  float: right;
+  padding-right: 15px;
+}
+
+.App-header {
+  background-color: #4178b9;
+  color: white;
+  margin-bottom: 37px;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+
+.sakura-icon {
+  position: absolute;
+  z-index: 999;
+  height: 18px;
+  top: 0;
+  left: 0px;
+  animation: 8000ms linear infinite;
+  animation-name: rotate;
+}
+
+.App-title {
+  font-size: 1.3em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.wrapper {
+  display: table;
+  margin: auto;
+}
+.logo-cell, .text-cell {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.table-icons {
+  height: 20px;
+}
+.table-icons-new {
+  height: 15px;
+}
+.full-container {
+  padding-top: 90px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  width: 100%;
+  margin: 0px 15px 15px 15px;
+  border-radius: 4px;
+}
+.card-title {
+  margin: 0;
+  line-height: 50px;
+  background: #4178b9;
+  color: #fff;
+  border-radius: 4px 4px 0px 0px;
+}
+.card-table {
+  width: 100%;
+  padding: 0px 20px 20px 20px;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+.card-table > tbody > tr > td {
+  padding: 5px;
+}
+.card-table > thead > tr > th {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 0px 5px;
+}
+.card-table > tbody > tr {
+  border-top: 1px solid grey;
+}
+.card-table > tbody > tr:first-child {
+  border-top: none;
+}
+.card-table > tbody > tr > td:first-child {
+  text-align: left;
+}
+.selling-loss {
+  color: #ff0000;
+  font-weight: bold;
+}
+.card-table > tbody > tr.can-buy {
+  background: #A3E7FC;
+}
+.card-table > tbody > tr.no-you-cant {
+  color: #cccccc;
+}
+.card-table > tbody > tr.no-you-cant > td > .selling-loss{
+  color: #ff9999;
+}
+
+[class*="card-item"] {
+  display: table;
+  width: 100%;
+}
+.card-item-master {
+  border-bottom: 1px solid #333;
+}
+.card-row {
+  display: table-row;
+}
+[class*="card-cell"] {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.card-cell-left {
+  text-align: left;
+}
+.card-cell-right {
+  text-align: right;
+}
+.input {
+  display: table;
+  border: 1px solid black;
+  margin: 10px 0px 15px 0px;
+  border-radius: 4px;
+}
+.input-icon, .input-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+.input-icon-size {
+  height: 18px;
+  padding: 0px 0px 0px 6px;
+  vertical-align: middle;
+}
+.input-item > input, .input-item > input:focus {
+  border: none;
+  outline: 0;
+  line-height: 32px;
+  width: 60px;
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+}
+
+.day-icon {
+  vertical-align: middle;
+  height: 25px;
+}
+.night-icon {
+  vertical-align: middle;
+  height: 25px;
+}
+
+@media (min-width: 660px) {
+  .card {
+    width: 295px;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
