@@ -20,30 +20,6 @@ const About = () => (
           </thead>
           <tbody>
             <tr>
-              <td>/items</td>
-              <td>list of all items</td>
-            </tr>
-            <tr>
-              <td>/items/item_type</td>
-              <td>list of all items classified by a type. (main-hand, off-hand, armor)</td>
-            </tr>
-            <tr>
-              <td>/items/item_subtype</td>
-              <td>list of all items classified by a sub-type. (sword, spear, shield, dagger, chest (renamed because of the type armor), helmet, gloves, boots</td>
-            </tr>
-            <tr>
-              <td>/items/item_id</td>
-              <td>select item by internal ID</td>
-            </tr>
-            <tr>
-              <td>/resources</td>
-              <td>list of all known resources</td>
-            </tr>
-            <tr>
-              <td>/resources/resource_id</td>
-              <td>select resource by internal ID</td>
-            </tr>
-            <tr>
               <td>/battles</td>
               <td>last battle results</td>
             </tr>

@@ -272,7 +272,8 @@ div.card-title button:hover {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);*/
   border: 1px solid #91B6E2;
   margin-bottom: 15px;
-  width: 316px;
+  width: 100%;
+  max-width: 400px;
 }
 #main #main-equips-cards .main-equips-cards-content .card .card-title {
   text-align: center;
@@ -359,9 +360,13 @@ div.card-title button:hover {
 #main #main-dashboard .main-dashboard-content .card {
   border: 1px solid #91B6E2;
   margin-bottom: 15px;
-  width: 316px;
+  width: 100%;
+  max-width: 400px;
   margin-right: 5px;
   margin-left: 5px;
+}
+#main #main-dashboard .main-dashboard-content .card.full {
+  max-width: 100%;
 }
 #main #main-dashboard .main-dashboard-content .card .card-title {
   text-align: center;
@@ -431,7 +436,7 @@ div.card-title button:hover {
   flex: 1;
   border: 1px solid #91B6E2;
   margin-bottom: 15px;
-  width: 316px;
+  width: 100%;
   margin-right: 5px;
   margin-left: 5px;
   font-size: 1.4em;
